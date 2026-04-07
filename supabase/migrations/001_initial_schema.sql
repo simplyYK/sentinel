@@ -16,7 +16,7 @@ CREATE TYPE severity_level AS ENUM ('critical','high','medium','low','positive')
 CREATE TYPE resource_type AS ENUM (
   'hospital','clinic','pharmacy','shelter','bunker','water_point',
   'food_distribution','police_station','fire_station','embassy',
-  'ngo_office','transit_hub','charging_station','wifi_hotspot'
+  'ngo_office','transit_hub','charging_station','wifi_hotspot', 'protected_zones'
 );
 CREATE TYPE resource_status AS ENUM ('open','closed','unknown','overcrowded','limited_service');
 
